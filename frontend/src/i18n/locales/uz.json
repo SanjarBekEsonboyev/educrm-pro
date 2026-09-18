@@ -1,0 +1,175 @@
+{
+  "app": { "name": "EduCRM Pro", "edition": "Enterprise Edition" },
+  "common": {
+    "save": "Saqlash", "cancel": "Bekor qilish", "add": "Qo'shish", "edit": "Tahrirlash", "delete": "O'chirish",
+    "close": "Yopish", "confirm": "Tasdiqlash", "search": "Qidirish", "actions": "Amallar",
+    "status": "Holat", "all": "Barchasi", "active": "Faol", "waiting": "Kutmoqda", "left": "Ketgan",
+    "yes": "Ha", "no": "Yo'q", "loading": "Yuklanmoqda...", "noData": "Ma'lumot topilmadi",
+    "name": "Ism Familiya", "phone": "Telefon", "course": "Kurs", "group": "Guruh", "teacher": "O'qituvchi",
+    "date": "Sana", "amount": "Miqdor (so'm)", "reason": "Sabab", "note": "Izoh", "type": "Tur",
+    "individual": "Individual", "groupType": "Guruh", "sum": "so'm", "print": "Chop etish", "send": "Yuborish",
+    "back": "Orqaga", "select": "Tanlang...", "logout": "Chiqish", "somethingWrong": "Nimadir xato ketdi",
+    "required": "Barcha maydonlarni to'ldiring", "days": { "MWF": "Du-Cho-Ju", "TTS": "Se-Pa-Sha", "daily": "Har kuni (6 kun)" }
+  },
+  "login": {
+    "title": "EduCRM Pro", "subtitle": "Enterprise Edition", "login": "Login", "password": "Parol",
+    "loginPlaceholder": "admin / dilnoza / bobur ...", "passwordPlaceholder": "Parolni kiriting",
+    "signIn": "Kirish", "error": "Login yoki parol noto'g'ri", "testAccounts": "TEST LOGINLAR",
+    "admin": "Admin", "director": "Direktor", "teacherDilnoza": "O'qituvchi (Dilnoza)",
+    "networkError": "Serverga ulanib bo'lmadi. Qayta urinib ko'ring."
+  },
+  "nav": {
+    "dashboard": "Dashboard", "admissions": "Qabul", "groups": "Guruhlar", "students": "O'quvchilar",
+    "teachers": "O'qituvchilar", "courses": "Kurslar", "attendance": "Davomat", "schedule": "Jadval",
+    "finance": "Moliya", "sms": "SMS Markaz", "reports": "Hisobotlar", "settings": "Sozlamalar",
+    "sectionMain": "Asosiy", "sectionSales": "Sotuv & AI", "sectionAdvanced": "Advanced",
+    "pipeline": "Sotuv Pipeline", "aiAnalytics": "AI Analytics", "lms": "LMS / Akademik",
+    "inventory": "Inventar & Sklad", "auditLog": "Audit Log", "parentPanel": "Ota-ona Panel",
+    "globalSearch": "Global Qidiruv", "taskManager": "Vazifalar", "accounting": "Buxgalteriya",
+    "roomMgmt": "Xonalar", "studentCab": "O'quvchi Kabinet", "aiChatbot": "AI Chatbot", "nps": "NPS & Sifat",
+    "antiFraud": "Anti-Fraud AI", "smartMap": "Smart Mapping", "psychLtv": "Psixologiya/LTV",
+    "marketing": "Marketing Auto", "pricing": "Dinamik Narx", "hr360": "HR & 360°", "bigdata": "Big Data",
+    "myDash": "Bosh sahifa", "myAttend": "Davomat", "mySchedule": "Jadval", "myStudents": "O'quvchilar"
+  },
+  "header": { "debtors": "{{count}} qarzdor" },
+  "dashboard": {
+    "totalStudents": "Jami O'quvchi", "activeGroups": "Faol Guruhlar", "teachers": "O'qituvchilar",
+    "courses": "Kurslar", "monthlyIncome": "Oylik Kirim", "monthlyExpense": "Oylik Chiqim",
+    "netProfit": "Sof Foyda", "debtors": "Qarzdorlar", "waiting": "{{count}} kutmoqda", "notOpened": "{{count}} ochilmagan",
+    "groupsStatus": "Guruhlar holati", "newAdmissions": "Yangi arizalar ({{count}})",
+    "new": "Yangi", "sendSms": "SMS", "sendAllDebtSms": "Barcha qarzdorlarga SMS yuborildi!"
+  },
+  "admissions": {
+    "newRequests": "Yangi arizalar ({{count}})", "waitingGroups": "Kutilayotgan guruhlar", "noWaitingGroups": "Kutilayotgan guruhlar yo'q",
+    "newAdmission": "Yangi o'quvchi qabuli", "fullName": "Ism Familiya", "phonePlaceholder": "+998 90 000 00 00",
+    "studyType": "O'qish turi", "lessonDays": "Dars kunlari", "noteOptional": "Qo'shimcha ma'lumot...",
+    "submit": "Qabul qilish", "addedSuccess": "{{name}} qabul ro'yxatiga qo'shildi", "groupReady": "{{name}} guruhi ochilishga tayyor! Tasdiqlash kutilmoqda.",
+    "approved": "Ariza tasdiqlandi", "rejected": "Ariza bekor qilindi", "openMin": "nafar (ochilishi uchun minimum)", "openBtn": "Tasdiqlash"
+  },
+  "groups": {
+    "newGroup": "Yangi guruh", "addGroup": "Yangi guruh qo'shish", "groupName": "Guruh nomi", "groupNamePlaceholder": "English A1 — Guruh 2",
+    "minSize": "Min o'quvchi (ochilish)", "maxSize": "Max hajm", "created": "Yangi guruh yaratildi",
+    "deleted": "Guruh o'chirildi", "hasStudents": "Guruhda o'quvchilar bor, avval ularni o'tkazing",
+    "confirmOpen": "Guruhni tasdiqlash", "statusActive": "Faol", "statusWaiting": "Kutilmoqda", "statusClosed": "Yopiq",
+    "fullness": "To'lganlik darajasi", "confirmBtn": "Tasdiqlash"
+  },
+  "students": {
+    "searchPlaceholder": "Ism yoki telefon...", "filterDebt": "Qarzdor", "filterIndividual": "Individual",
+    "addStudent": "Qo'shish", "table": { "name": "Ism", "phone": "Telefon", "course": "Kurs", "group": "Guruh",
+      "type": "Tur", "payment": "To'lov", "status": "Holat", "actions": "Amallar" },
+    "payStatus": { "paid": "To'lagan", "partial": "Qisman", "debt": "Qarzdor" },
+    "pay": "To'lov", "view": "Ko'rish", "notFound": "Hech narsa topilmadi", "added": "{{name}} qo'shildi"
+  },
+  "teachers": {
+    "add": "O'qituvchi qo'shish", "edit": "Tahrirlash", "new": "Yangi o'qituvchi", "fields": { "name": "Ism Familiya", "phone": "Telefon",
+      "login": "Login", "password": "Parol", "subject": "Fan", "salaryType": "Maosh turi",
+      "salaryFixed": "Tayinlangan", "salaryPercent": "Foiz (%)", "monthlySalary": "Oylik maosh (so'm)",
+      "percentOfPay": "To'lovdan % (masalan: 50)" },
+    "percentHint": "O'quvchilar to'lovining {{pct}}% i o'qituvchi maoshi hisoblanadi",
+    "groups": "Guruhlar", "students": "O'quvchilar", "netSalary": "Netto maosh", "addBonus": "+ Bonus",
+    "addFine": "+ Jarima", "updated": "O'qituvchi ma'lumotlari yangilandi", "createdNew": "Yangi o'qituvchi qo'shildi",
+    "removed": "O'qituvchi o'chirildi", "hasGroups": "O'qituvchida guruhlar mavjud", "bonusAdded": "Bonus qo'shildi"
+  },
+  "courses": {
+    "newCourse": "Yangi kurs", "edit": "Kursni tahrirlash", "new": "Yangi kurs qo'shish", "name": "Kurs nomi",
+    "icon": "Emoji / Ikonka", "color": "Rang", "price": "Oylik narx (so'm)", "duration": "Davomiyligi",
+    "minGroup": "Min guruh hajmi (ochilish)", "maxGroup": "Max guruh hajmi", "desc": "Tavsif",
+    "revenue": "Umumiy daromad", "updated": "Kurs yangilandi", "created": "Yangi kurs qo'shildi",
+    "deleted": "Kurs o'chirildi", "hasGroups": "Bu kursda guruhlar mavjud"
+  },
+  "attendance": {
+    "save": "Saqlash", "saved": "Davomat saqlandi", "present": "Keldi", "late": "Kechikdi", "absent": "Kelmadi",
+    "todayResult": "Bugungi natija", "groupStats": "Guruh statistika", "attended": "Keldi", "of": "/",
+    "lesson": "dars", "lessons": "dars"
+  },
+  "schedule": {
+    "allGroups": "Barcha guruhlar jadvali", "table": { "group": "Guruh", "course": "Fan", "teacher": "O'qituvchi",
+      "days": "Kunlar", "students": "O'quvchilar", "status": "Holat" }
+  },
+  "finance": {
+    "totalIncome": "Jami Kirim", "totalExpense": "Jami Chiqim", "netProfit": "Sof Foyda",
+    "tabs": { "overview": "Umumiy", "payments": "To'lovlar", "expenses": "Chiqimlar", "salary": "Maoshlar" },
+    "studentPayStatus": "O'quvchilar to'lovi holati", "addExpense": "Chiqim qo'shish", "expenseTitle": "Nomi",
+    "category": "Kategoriya", "byCategory": "Kategoriya bo'yicha chiqim", "expenseAdded": "Chiqim qo'shildi",
+    "categories": { "rent": "Ijara", "utility": "Kommunal", "marketing": "Reklama", "salary": "Maosh", "other": "Boshqa" },
+    "receipt": "Chek", "main": "Asosiy", "bonus": "Bonus", "fine": "Jarima", "net": "Netto"
+  },
+  "sms": {
+    "tabs": { "debt": "Qarzdorlarga", "custom": "Alohida SMS", "all": "Barchaga", "log": "SMS Tarixi" },
+    "debtorsCount": "Qarzdorlar ({{count}})", "template": "SMS Shablon", "sendCount": "{{count}} ta SMS yuborish",
+    "sentDebt": "{{count}} ta qarzdorga SMS yuborildi!", "customSend": "Alohida SMS yuborish", "phoneNumber": "Telefon raqam",
+    "message": "Xabar matni", "messagePreview": "Xabar matni shu yerda ko'rinadi...", "charCount": "Belgilar soni: {{count}} / 160",
+    "sentOne": "SMS yuborildi!", "sendToAll": "Barcha faol o'quvchilarga SMS", "activeCount": "Faol o'quvchilar",
+    "sendAllBtn": "Barcha {{count}} nafarga SMS", "sentAll": "{{count}} ta o'quvchiga SMS yuborildi!",
+    "noHistory": "SMS tarixi yo'q", "time": "Vaqt", "typeDebt": "Qarz", "typeCustom": "Alohida", "typeAll": "Umumiy"
+  },
+  "reports": {
+    "totalStudents": "Jami o'quvchi", "active": "Faol", "waiting": "Kutmoqda", "left": "Ketgan",
+    "groups": "Guruhlar", "activeGroup": "Faol guruh", "teachers": "O'qituvchilar", "attendanceRate": "Davomat %",
+    "monthlyIncome": "Oylik kirim", "monthlyExpense": "Oylik chiqim", "netProfit": "Sof foyda",
+    "debtors": "Qarzdorlar", "coursePerf": "Kurslar samaradorligi", "teacherPerf": "O'qituvchilar natijasi"
+  },
+  "settings": {
+    "centerInfo": "O'quv markaz ma'lumotlari", "centerName": "Markaz nomi", "phone": "Telefon", "address": "Manzil",
+    "saved": "Ma'lumotlar saqlandi", "users": "Foydalanuvchilar", "systemSettings": "Tizim sozlamalari",
+    "minGroupOpen": "Guruh ochilishi uchun minimum o'quvchi", "monthlyLessons": "Oylik dars soni (to'lov asosi)",
+    "smsNotifications": "SMS bildirishnomalar", "autoSms": "Avtomatik SMS (qarzdor 7 kundan so'ng)", "enabled": "Yoqilgan"
+  },
+  "modals": {
+    "pay": { "title": "To'lov qabul qilish", "monthlyFee": "Oylik to'lov:", "paidSoFar": "To'langan:", "debt": "Qarz:",
+      "amount": "To'lov miqdori (so'm)", "note": "Izoh", "submit": "Qabul qilish + Chek", "success": "To'lov qabul qilindi: {{amount}} so'm" },
+    "receipt": { "title": "To'lov cheki", "number": "Chek №", "date": "Sana", "time": "Vaqt", "student": "O'quvchi",
+      "phone": "Telefon", "course": "Kurs", "group": "Guruh", "type": "Tur", "monthlyFee": "Oylik to'lov",
+      "paid": "To'langan", "note": "Izoh", "confirmed": "To'lov qabul qilindi", "close": "Yopish" },
+    "leave": { "title": "Guruhdan chiqarish", "reason": "Ketish sababi", "reasonPlaceholder": "Sababni yozing...",
+      "lessonsAttended": "Nechta darsga qatnashdi (hisob uchun)", "monthlyIs": "12 dars uchun oylik = {{price}} so'm → 1 dars = {{lesson}} so'm",
+      "paid": "To'lgan", "used": "Qatnashilgan", "refund": "Qaytarish", "confirm": "Tasdiqlash", "success": "{{name}} ro'yxatdan chiqarildi. Qaytarish: {{amount}} so'm" },
+    "fine": { "title": "Jarima qo'shish", "reason": "Jarima sababi", "customReason": "Yoki o'zingiz yozing...", "amount": "Jarima miqdori (so'm)",
+      "submit": "Qo'shish", "success": "{{name}}ga {{amount}} so'm jarima qo'shildi",
+      "reasons": { "late": "Darsga kechikish", "missed": "Darsni qoldirish", "poorQuality": "Sifatsiz dars",
+        "complaint": "O'quvchi shikoyati", "noDocs": "Hujjat topshirmadi", "discipline": "Tartibni buzish", "other": "Boshqa sabab" } },
+    "confirmGroup": { "title": "Guruhni tasdiqlash", "startDate": "Darslar boshlanish sanasi", "startHint": "Ushbu sanadan boshlab to'lov hisobi boshlanadi",
+      "info1": "Barcha {{count}} nafar kutmoqdagi o'quvchi faol holatga o'tkaziladi", "info2": "To'lov sanasi {{date}} dan boshlanadi",
+      "info3": "Barcha o'quvchilarga SMS xabar yuboriladi", "confirm": "Tasdiqlash", "success": "{{name}} guruhi tasdiqlandi! Barcha {{count}} o'quvchiga SMS yuborildi!" },
+    "addStudent": { "title": "O'quvchi qo'shish", "submit": "Qo'shish", "success": "{{name}} qo'shildi" },
+    "viewStudent": { "title": "O'quvchi ma'lumotlari", "course": "Kurs", "group": "Guruh", "days": "Kunlar",
+      "joined": "Qo'shilgan", "payStart": "To'lov boshlanish", "monthlyFee": "Oylik to'lov", "paid": "To'langan", "debt": "Qarz",
+      "totalLessons": "Jami dars", "attended": "Keldi", "paymentHistory": "To'lovlar tarixi",
+      "leaveReason": "Ketish sababi", "refund": "Qaytarish" }
+  },
+  "teacherPortal": {
+    "hello": "Salom, {{name}} 👋", "subjectTeacher": "{{course}} o'qituvchisi", "myGroups": "Guruhlarim",
+    "myStudents": "O'quvchilarim", "monthlyIncome": "Oylik daromad", "fines": "Jarimalar", "student": "O'quvchi",
+    "lessonDays": "Kunlar", "fineList": "Jarimalar", "noGroupSelected": "Guruhni tanlang",
+    "attendanceRate": "Keldi: {{came}}/{{total}} ta dars"
+  },
+  "modules": {
+    "pipeline": { "title": "Sotuv Pipeline", "totalLeads": "Jami {{count}} lid · {{converted}} o'quvchiga aylandi",
+      "newLead": "Yangi Lid", "source": "Manba", "referral": "Referal Tizim — \"Do'stingni olib kel\"",
+      "referrer": "Tavsiyachi o'quvchi", "giveBonus": "🎁 Bonus berish", "bonusGiven": "Tavsiyachiga 50,000 so'm bonus hisoblandi!",
+      "selectStudent": "O'quvchi tanlang", "leadAdded": "Yangi lid qo'shildi", "ruleText": "Har bir muvaffaqiyatli tavsiya uchun tavsiyachiga 50,000 so'm yoki keyingi oyga 15% chegirma beriladi." },
+    "aiAnalytics": { "title": "AI Analytics" },
+    "lms": { "title": "LMS / Akademik" },
+    "inventory": { "title": "Inventar & Sklad" },
+    "auditLog": { "title": "Audit Log" },
+    "parentPanel": { "title": "Ota-ona Panel" },
+    "globalSearch": { "title": "Global Qidiruv", "placeholder": "O'quvchi, o'qituvchi, guruh qidirish..." },
+    "taskManager": { "title": "Vazifalar", "addTask": "Vazifa qo'shish", "placeholder": "Yangi vazifa..." },
+    "accounting": { "title": "Buxgalteriya" },
+    "roomMgmt": { "title": "Xonalar" },
+    "studentCab": { "title": "O'quvchi Kabinet" },
+    "aiChatbot": { "title": "AI Chatbot", "placeholder": "Savolingizni yozing..." },
+    "nps": { "title": "NPS & Sifat" },
+    "antiFraud": { "title": "Anti-Fraud AI" },
+    "smartMap": { "title": "Smart Mapping" },
+    "psychLtv": { "title": "Psixologiya/LTV" },
+    "marketing": { "title": "Marketing Auto" },
+    "pricing": { "title": "Dinamik Narx", "earlyBird": "Early Bird Chegirmalari", "loyalty": "Loyalty Coins",
+      "spend": "Sarflash", "notEnough": "Yetarli coin yo'q", "spent": "coin sarflandi — keyingi oyga chegirma qo'shildi!",
+      "earned": "coin qo'shildi" },
+    "hr360": { "title": "HR & 360°", "contracts": "E-Shartnomalar", "salarySlip": "Maosh Varaqasi", "kpi": "360° Baholash",
+      "signed": "Imzolangan", "unsigned": "Imzosiz", "daysLeft": "{{count}} kun qoldi!", "reminder": "Eslatma",
+      "reminderSent": "{{name}} shartnomasi yuborildi", "printSlip": "Chop etish", "printed": "Maosh varaqasi chop etildi" },
+    "bigdata": { "title": "Big Data" }
+  }
+}

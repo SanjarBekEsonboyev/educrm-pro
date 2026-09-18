@@ -1,0 +1,175 @@
+{
+  "app": { "name": "EduCRM Pro", "edition": "Enterprise Edition" },
+  "common": {
+    "save": "Save", "cancel": "Cancel", "add": "Add", "edit": "Edit", "delete": "Delete",
+    "close": "Close", "confirm": "Confirm", "search": "Search", "actions": "Actions",
+    "status": "Status", "all": "All", "active": "Active", "waiting": "Waiting", "left": "Left",
+    "yes": "Yes", "no": "No", "loading": "Loading...", "noData": "No data found",
+    "name": "Full name", "phone": "Phone", "course": "Course", "group": "Group", "teacher": "Teacher",
+    "date": "Date", "amount": "Amount (UZS)", "reason": "Reason", "note": "Note", "type": "Type",
+    "individual": "Individual", "groupType": "Group", "sum": "UZS", "print": "Print", "send": "Send",
+    "back": "Back", "select": "Select...", "logout": "Log out", "somethingWrong": "Something went wrong",
+    "required": "Please fill in all required fields", "days": { "MWF": "Mon-Wed-Fri", "TTS": "Tue-Thu-Sat", "daily": "Every day (6 days)" }
+  },
+  "login": {
+    "title": "EduCRM Pro", "subtitle": "Enterprise Edition", "login": "Login", "password": "Password",
+    "loginPlaceholder": "admin / dilnoza / bobur ...", "passwordPlaceholder": "Enter password",
+    "signIn": "Sign in", "error": "Incorrect login or password", "testAccounts": "TEST ACCOUNTS",
+    "admin": "Admin", "director": "Director", "teacherDilnoza": "Teacher (Dilnoza)",
+    "networkError": "Could not reach server. Please try again."
+  },
+  "nav": {
+    "dashboard": "Dashboard", "admissions": "Admissions", "groups": "Groups", "students": "Students",
+    "teachers": "Teachers", "courses": "Courses", "attendance": "Attendance", "schedule": "Schedule",
+    "finance": "Finance", "sms": "SMS Center", "reports": "Reports", "settings": "Settings",
+    "sectionMain": "Main", "sectionSales": "Sales & AI", "sectionAdvanced": "Advanced",
+    "pipeline": "Sales Pipeline", "aiAnalytics": "AI Analytics", "lms": "LMS / Academics",
+    "inventory": "Inventory & Stock", "auditLog": "Audit Log", "parentPanel": "Parent Panel",
+    "globalSearch": "Global Search", "taskManager": "Tasks", "accounting": "Accounting",
+    "roomMgmt": "Rooms", "studentCab": "Student Cabinet", "aiChatbot": "AI Chatbot", "nps": "NPS & Quality",
+    "antiFraud": "Anti-Fraud AI", "smartMap": "Smart Mapping", "psychLtv": "Psychology / LTV",
+    "marketing": "Marketing Automation", "pricing": "Dynamic Pricing", "hr360": "HR & 360°", "bigdata": "Big Data",
+    "myDash": "Home", "myAttend": "Attendance", "mySchedule": "Schedule", "myStudents": "Students"
+  },
+  "header": { "debtors": "{{count}} debtor(s)" },
+  "dashboard": {
+    "totalStudents": "Total Students", "activeGroups": "Active Groups", "teachers": "Teachers",
+    "courses": "Courses", "monthlyIncome": "Monthly Income", "monthlyExpense": "Monthly Expense",
+    "netProfit": "Net Profit", "debtors": "Debtors", "waiting": "{{count}} waiting", "notOpened": "{{count}} not opened",
+    "groupsStatus": "Groups status", "newAdmissions": "New requests ({{count}})",
+    "new": "New", "sendSms": "SMS", "sendAllDebtSms": "SMS sent to all debtors!"
+  },
+  "admissions": {
+    "newRequests": "New requests ({{count}})", "waitingGroups": "Groups waiting to open", "noWaitingGroups": "No groups waiting",
+    "newAdmission": "New student admission", "fullName": "Full name / surname", "phonePlaceholder": "+998 90 000 00 00",
+    "studyType": "Study type", "lessonDays": "Lesson days", "noteOptional": "Additional note...",
+    "submit": "Submit admission", "addedSuccess": "{{name}} added to admission list", "groupReady": "Group {{name}} is ready to open! Awaiting confirmation.",
+    "approved": "Request approved", "rejected": "Request cancelled", "openMin": "for opening (minimum)", "openBtn": "Confirm"
+  },
+  "groups": {
+    "newGroup": "New group", "addGroup": "Add new group", "groupName": "Group name", "groupNamePlaceholder": "English A1 — Group 2",
+    "minSize": "Min students (opening)", "maxSize": "Max size", "created": "New group created",
+    "deleted": "Group deleted", "hasStudents": "This group has students, move them out first",
+    "confirmOpen": "Confirm group", "statusActive": "Active", "statusWaiting": "Waiting", "statusClosed": "Closed",
+    "fullness": "Fullness level", "confirmBtn": "Confirm"
+  },
+  "students": {
+    "searchPlaceholder": "Name or phone...", "filterDebt": "Debtors", "filterIndividual": "Individual",
+    "addStudent": "Add student", "table": { "name": "Name", "phone": "Phone", "course": "Course", "group": "Group",
+      "type": "Type", "payment": "Payment", "status": "Status", "actions": "Actions" },
+    "payStatus": { "paid": "Paid", "partial": "Partial", "debt": "Debtor" },
+    "pay": "Pay", "view": "View", "notFound": "Nothing found", "added": "{{name}} added"
+  },
+  "teachers": {
+    "add": "Add teacher", "edit": "Edit", "new": "New teacher", "fields": { "name": "Full name", "phone": "Phone",
+      "login": "Login", "password": "Password", "subject": "Subject", "salaryType": "Salary type",
+      "salaryFixed": "Fixed", "salaryPercent": "Percent (%)", "monthlySalary": "Monthly salary (UZS)",
+      "percentOfPay": "% of student payments (e.g. 50)" },
+    "percentHint": "{{pct}}% of student payments becomes the teacher's salary",
+    "groups": "Groups", "students": "Students", "netSalary": "Net salary", "addBonus": "+ Bonus",
+    "addFine": "+ Fine", "updated": "Teacher information updated", "createdNew": "New teacher added",
+    "removed": "Teacher removed", "hasGroups": "Teacher has active groups", "bonusAdded": "Bonus added"
+  },
+  "courses": {
+    "newCourse": "New course", "edit": "Edit course", "new": "Add new course", "name": "Course name",
+    "icon": "Emoji / Icon", "color": "Color", "price": "Monthly price (UZS)", "duration": "Duration",
+    "minGroup": "Min group size (opening)", "maxGroup": "Max group size", "desc": "Description",
+    "revenue": "Total revenue", "updated": "Course updated", "created": "New course added",
+    "deleted": "Course deleted", "hasGroups": "This course has groups"
+  },
+  "attendance": {
+    "save": "Save", "saved": "Attendance saved", "present": "Present", "late": "Late", "absent": "Absent",
+    "todayResult": "Today's result", "groupStats": "Group statistics", "attended": "Attended", "of": "of",
+    "lesson": "lesson", "lessons": "lessons"
+  },
+  "schedule": {
+    "allGroups": "All groups schedule", "table": { "group": "Group", "course": "Course", "teacher": "Teacher",
+      "days": "Days", "students": "Students", "status": "Status" }
+  },
+  "finance": {
+    "totalIncome": "Total Income", "totalExpense": "Total Expense", "netProfit": "Net Profit",
+    "tabs": { "overview": "Overview", "payments": "Payments", "expenses": "Expenses", "salary": "Salaries" },
+    "studentPayStatus": "Students' payment status", "addExpense": "Add expense", "expenseTitle": "Title",
+    "category": "Category", "byCategory": "Expenses by category", "expenseAdded": "Expense added",
+    "categories": { "rent": "Rent", "utility": "Utilities", "marketing": "Marketing", "salary": "Salary", "other": "Other" },
+    "receipt": "Receipt", "main": "Base", "bonus": "Bonus", "fine": "Fine", "net": "Net"
+  },
+  "sms": {
+    "tabs": { "debt": "To debtors", "custom": "Custom SMS", "all": "To everyone", "log": "SMS history" },
+    "debtorsCount": "Debtors ({{count}})", "template": "SMS Template", "sendCount": "Send {{count}} SMS",
+    "sentDebt": "SMS sent to {{count}} debtor(s)!", "customSend": "Send custom SMS", "phoneNumber": "Phone number",
+    "message": "Message text", "messagePreview": "Message will appear here...", "charCount": "Characters: {{count}} / 160",
+    "sentOne": "SMS sent!", "sendToAll": "Send SMS to all active students", "activeCount": "Active students",
+    "sendAllBtn": "Send SMS to all {{count}}", "sentAll": "SMS sent to {{count}} students!",
+    "noHistory": "No SMS history", "time": "Time", "typeDebt": "Debt", "typeCustom": "Custom", "typeAll": "Broadcast"
+  },
+  "reports": {
+    "totalStudents": "Total students", "active": "Active", "waiting": "Waiting", "left": "Left",
+    "groups": "Groups", "activeGroup": "Active group", "teachers": "Teachers", "attendanceRate": "Attendance %",
+    "monthlyIncome": "Monthly income", "monthlyExpense": "Monthly expense", "netProfit": "Net profit",
+    "debtors": "Debtors", "coursePerf": "Course performance", "teacherPerf": "Teacher performance"
+  },
+  "settings": {
+    "centerInfo": "Learning center information", "centerName": "Center name", "phone": "Phone", "address": "Address",
+    "saved": "Information saved", "users": "Users", "systemSettings": "System settings",
+    "minGroupOpen": "Minimum students to open a group", "monthlyLessons": "Lessons per month (billing basis)",
+    "smsNotifications": "SMS notifications", "autoSms": "Auto SMS (debtor after 7 days)", "enabled": "Enabled"
+  },
+  "modals": {
+    "pay": { "title": "Accept payment", "monthlyFee": "Monthly fee:", "paidSoFar": "Paid so far:", "debt": "Debt:",
+      "amount": "Payment amount (UZS)", "note": "Note", "submit": "Accept + Receipt", "success": "Payment accepted: {{amount}} UZS" },
+    "receipt": { "title": "Payment receipt", "number": "Receipt #", "date": "Date", "time": "Time", "student": "Student",
+      "phone": "Phone", "course": "Course", "group": "Group", "type": "Type", "monthlyFee": "Monthly fee",
+      "paid": "Paid", "note": "Note", "confirmed": "Payment accepted", "close": "Close" },
+    "leave": { "title": "Withdraw from group", "reason": "Reason for leaving", "reasonPlaceholder": "Write the reason...",
+      "lessonsAttended": "Lessons attended (for calculation)", "monthlyIs": "Monthly for 12 lessons = {{price}} UZS → 1 lesson = {{lesson}} UZS",
+      "paid": "Paid", "used": "Used", "refund": "Refund", "confirm": "Confirm", "success": "{{name}} withdrawn. Refund: {{amount}} UZS" },
+    "fine": { "title": "Add fine", "reason": "Fine reason", "customReason": "Or type your own...", "amount": "Fine amount (UZS)",
+      "submit": "Add", "success": "{{amount}} UZS fine added to {{name}}",
+      "reasons": { "late": "Late for class", "missed": "Missed class", "poorQuality": "Poor quality lesson",
+        "complaint": "Student complaint", "noDocs": "Missing documents", "discipline": "Breach of discipline", "other": "Other reason" } },
+    "confirmGroup": { "title": "Confirm group", "startDate": "Lessons start date", "startHint": "Billing starts from this date",
+      "info1": "All {{count}} waiting students will be activated", "info2": "Payment period starts from {{date}}",
+      "info3": "All students will receive an SMS", "confirm": "Confirm", "success": "{{name}} confirmed! SMS sent to all {{count}} students!" },
+    "addStudent": { "title": "Add student", "submit": "Add", "success": "{{name}} added" },
+    "viewStudent": { "title": "Student information", "course": "Course", "group": "Group", "days": "Days",
+      "joined": "Joined", "payStart": "Payment start", "monthlyFee": "Monthly fee", "paid": "Paid", "debt": "Debt",
+      "totalLessons": "Total lessons", "attended": "Attended", "paymentHistory": "Payment history",
+      "leaveReason": "Reason for leaving", "refund": "Refund" }
+  },
+  "teacherPortal": {
+    "hello": "Hello, {{name}} 👋", "subjectTeacher": "teacher of {{course}}", "myGroups": "My groups",
+    "myStudents": "My students", "monthlyIncome": "Monthly income", "fines": "Fines", "student": "student",
+    "lessonDays": "Lesson days", "fineList": "Fines", "noGroupSelected": "Select a group",
+    "attendanceRate": "Attendance: {{came}}/{{total}} lessons"
+  },
+  "modules": {
+    "pipeline": { "title": "Sales Pipeline", "totalLeads": "Total {{count}} leads · {{converted}} converted to students",
+      "newLead": "New lead", "source": "Source", "referral": "Referral Program — \"Bring a friend\"",
+      "referrer": "Referring student", "giveBonus": "🎁 Give bonus", "bonusGiven": "Bonus of 50,000 UZS credited to referrer!",
+      "selectStudent": "Please select a student", "leadAdded": "New lead added", "ruleText": "Each successful referral earns the referrer 50,000 UZS or a 15% discount on next month." },
+    "aiAnalytics": { "title": "AI Analytics" },
+    "lms": { "title": "LMS / Academics" },
+    "inventory": { "title": "Inventory & Stock" },
+    "auditLog": { "title": "Audit Log" },
+    "parentPanel": { "title": "Parent Panel" },
+    "globalSearch": { "title": "Global Search", "placeholder": "Search students, teachers, groups..." },
+    "taskManager": { "title": "Tasks", "addTask": "Add task", "placeholder": "New task..." },
+    "accounting": { "title": "Accounting" },
+    "roomMgmt": { "title": "Rooms" },
+    "studentCab": { "title": "Student Cabinet" },
+    "aiChatbot": { "title": "AI Chatbot", "placeholder": "Ask a question..." },
+    "nps": { "title": "NPS & Quality" },
+    "antiFraud": { "title": "Anti-Fraud AI" },
+    "smartMap": { "title": "Smart Mapping" },
+    "psychLtv": { "title": "Psychology / LTV" },
+    "marketing": { "title": "Marketing Automation" },
+    "pricing": { "title": "Dynamic Pricing", "earlyBird": "Early Bird Discounts", "loyalty": "Loyalty Coins",
+      "spend": "Spend", "notEnough": "Not enough coins", "spent": "coins spent — discount applied to next month!",
+      "earned": "coins added" },
+    "hr360": { "title": "HR & 360°", "contracts": "E-Contracts", "salarySlip": "Salary Slip", "kpi": "360° Evaluation",
+      "signed": "Signed", "unsigned": "Unsigned", "daysLeft": "{{count}} days left!", "reminder": "Reminder",
+      "reminderSent": "Reminder sent to {{name}}", "printSlip": "Print", "printed": "Salary slip printed" },
+    "bigdata": { "title": "Big Data" }
+  }
+}

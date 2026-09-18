@@ -1,0 +1,175 @@
+{
+  "app": { "name": "EduCRM Pro", "edition": "Enterprise Edition" },
+  "common": {
+    "save": "Сохранить", "cancel": "Отмена", "add": "Добавить", "edit": "Редактировать", "delete": "Удалить",
+    "close": "Закрыть", "confirm": "Подтвердить", "search": "Поиск", "actions": "Действия",
+    "status": "Статус", "all": "Все", "active": "Активный", "waiting": "Ожидает", "left": "Ушёл",
+    "yes": "Да", "no": "Нет", "loading": "Загрузка...", "noData": "Данные не найдены",
+    "name": "Ф.И.О.", "phone": "Телефон", "course": "Курс", "group": "Группа", "teacher": "Учитель",
+    "date": "Дата", "amount": "Сумма (сум)", "reason": "Причина", "note": "Примечание", "type": "Тип",
+    "individual": "Индивидуально", "groupType": "Группа", "sum": "сум", "print": "Печать", "send": "Отправить",
+    "back": "Назад", "select": "Выберите...", "logout": "Выйти", "somethingWrong": "Что-то пошло не так",
+    "required": "Заполните все обязательные поля", "days": { "MWF": "Пн-Ср-Пт", "TTS": "Вт-Чт-Сб", "daily": "Каждый день (6 дней)" }
+  },
+  "login": {
+    "title": "EduCRM Pro", "subtitle": "Enterprise Edition", "login": "Логин", "password": "Пароль",
+    "loginPlaceholder": "admin / dilnoza / bobur ...", "passwordPlaceholder": "Введите пароль",
+    "signIn": "Войти", "error": "Неверный логин или пароль", "testAccounts": "ТЕСТОВЫЕ АККАУНТЫ",
+    "admin": "Админ", "director": "Директор", "teacherDilnoza": "Учитель (Дилноза)",
+    "networkError": "Не удалось подключиться к серверу. Попробуйте снова."
+  },
+  "nav": {
+    "dashboard": "Дашборд", "admissions": "Приём", "groups": "Группы", "students": "Ученики",
+    "teachers": "Учителя", "courses": "Курсы", "attendance": "Посещаемость", "schedule": "Расписание",
+    "finance": "Финансы", "sms": "SMS-центр", "reports": "Отчёты", "settings": "Настройки",
+    "sectionMain": "Основное", "sectionSales": "Продажи и AI", "sectionAdvanced": "Расширенное",
+    "pipeline": "Воронка продаж", "aiAnalytics": "AI-аналитика", "lms": "LMS / Учёба",
+    "inventory": "Склад и инвентарь", "auditLog": "Журнал действий", "parentPanel": "Панель родителей",
+    "globalSearch": "Глобальный поиск", "taskManager": "Задачи", "accounting": "Бухгалтерия",
+    "roomMgmt": "Кабинеты", "studentCab": "Кабинет ученика", "aiChatbot": "AI-чат-бот", "nps": "NPS и качество",
+    "antiFraud": "Anti-Fraud AI", "smartMap": "Smart Mapping", "psychLtv": "Психология / LTV",
+    "marketing": "Маркетинг-автоматизация", "pricing": "Динамическое ценообразование", "hr360": "HR и 360°", "bigdata": "Big Data",
+    "myDash": "Главная", "myAttend": "Посещаемость", "mySchedule": "Расписание", "myStudents": "Ученики"
+  },
+  "header": { "debtors": "{{count}} должник(ов)" },
+  "dashboard": {
+    "totalStudents": "Всего учеников", "activeGroups": "Активные группы", "teachers": "Учителя",
+    "courses": "Курсы", "monthlyIncome": "Доход за месяц", "monthlyExpense": "Расход за месяц",
+    "netProfit": "Чистая прибыль", "debtors": "Должники", "waiting": "{{count}} в ожидании", "notOpened": "{{count}} не открыто",
+    "groupsStatus": "Статус групп", "newAdmissions": "Новые заявки ({{count}})",
+    "new": "Новая", "sendSms": "SMS", "sendAllDebtSms": "SMS отправлено всем должникам!"
+  },
+  "admissions": {
+    "newRequests": "Новые заявки ({{count}})", "waitingGroups": "Группы в ожидании открытия", "noWaitingGroups": "Нет ожидающих групп",
+    "newAdmission": "Приём нового ученика", "fullName": "Ф.И.О.", "phonePlaceholder": "+998 90 000 00 00",
+    "studyType": "Тип обучения", "lessonDays": "Дни занятий", "noteOptional": "Дополнительная информация...",
+    "submit": "Принять заявку", "addedSuccess": "{{name}} добавлен(а) в список приёма", "groupReady": "Группа {{name}} готова к открытию! Ожидает подтверждения.",
+    "approved": "Заявка подтверждена", "rejected": "Заявка отменена", "openMin": "чел. (минимум для открытия)", "openBtn": "Подтвердить"
+  },
+  "groups": {
+    "newGroup": "Новая группа", "addGroup": "Добавить новую группу", "groupName": "Название группы", "groupNamePlaceholder": "English A1 — Группа 2",
+    "minSize": "Мин. учеников (открытие)", "maxSize": "Макс. размер", "created": "Новая группа создана",
+    "deleted": "Группа удалена", "hasStudents": "В группе есть ученики, сначала переведите их",
+    "confirmOpen": "Подтвердить группу", "statusActive": "Активна", "statusWaiting": "Ожидает", "statusClosed": "Закрыта",
+    "fullness": "Уровень заполненности", "confirmBtn": "Подтвердить"
+  },
+  "students": {
+    "searchPlaceholder": "Имя или телефон...", "filterDebt": "Должники", "filterIndividual": "Индивидуально",
+    "addStudent": "Добавить ученика", "table": { "name": "Имя", "phone": "Телефон", "course": "Курс", "group": "Группа",
+      "type": "Тип", "payment": "Оплата", "status": "Статус", "actions": "Действия" },
+    "payStatus": { "paid": "Оплачено", "partial": "Частично", "debt": "Должник" },
+    "pay": "Оплата", "view": "Просмотр", "notFound": "Ничего не найдено", "added": "{{name}} добавлен(а)"
+  },
+  "teachers": {
+    "add": "Добавить учителя", "edit": "Редактировать", "new": "Новый учитель", "fields": { "name": "Ф.И.О.", "phone": "Телефон",
+      "login": "Логин", "password": "Пароль", "subject": "Предмет", "salaryType": "Тип зарплаты",
+      "salaryFixed": "Фиксированная", "salaryPercent": "Процент (%)", "monthlySalary": "Зарплата в месяц (сум)",
+      "percentOfPay": "% от оплат учеников (например 50)" },
+    "percentHint": "{{pct}}% от оплат учеников составляет зарплату учителя",
+    "groups": "Группы", "students": "Ученики", "netSalary": "Чистая зарплата", "addBonus": "+ Бонус",
+    "addFine": "+ Штраф", "updated": "Данные учителя обновлены", "createdNew": "Новый учитель добавлен",
+    "removed": "Учитель удалён", "hasGroups": "У учителя есть активные группы", "bonusAdded": "Бонус добавлен"
+  },
+  "courses": {
+    "newCourse": "Новый курс", "edit": "Редактировать курс", "new": "Добавить новый курс", "name": "Название курса",
+    "icon": "Эмодзи / Иконка", "color": "Цвет", "price": "Цена в месяц (сум)", "duration": "Длительность",
+    "minGroup": "Мин. размер группы (открытие)", "maxGroup": "Макс. размер группы", "desc": "Описание",
+    "revenue": "Общий доход", "updated": "Курс обновлён", "created": "Новый курс добавлен",
+    "deleted": "Курс удалён", "hasGroups": "В этом курсе есть группы"
+  },
+  "attendance": {
+    "save": "Сохранить", "saved": "Посещаемость сохранена", "present": "Пришёл", "late": "Опоздал", "absent": "Отсутствовал",
+    "todayResult": "Итог за сегодня", "groupStats": "Статистика группы", "attended": "Присутствовал", "of": "из",
+    "lesson": "урок", "lessons": "уроков"
+  },
+  "schedule": {
+    "allGroups": "Расписание всех групп", "table": { "group": "Группа", "course": "Курс", "teacher": "Учитель",
+      "days": "Дни", "students": "Ученики", "status": "Статус" }
+  },
+  "finance": {
+    "totalIncome": "Общий доход", "totalExpense": "Общий расход", "netProfit": "Чистая прибыль",
+    "tabs": { "overview": "Обзор", "payments": "Платежи", "expenses": "Расходы", "salary": "Зарплаты" },
+    "studentPayStatus": "Статус оплат учеников", "addExpense": "Добавить расход", "expenseTitle": "Название",
+    "category": "Категория", "byCategory": "Расходы по категориям", "expenseAdded": "Расход добавлен",
+    "categories": { "rent": "Аренда", "utility": "Коммунальные", "marketing": "Реклама", "salary": "Зарплата", "other": "Прочее" },
+    "receipt": "Чек", "main": "Основная", "bonus": "Бонус", "fine": "Штраф", "net": "Итого"
+  },
+  "sms": {
+    "tabs": { "debt": "Должникам", "custom": "Своё SMS", "all": "Всем", "log": "История SMS" },
+    "debtorsCount": "Должники ({{count}})", "template": "Шаблон SMS", "sendCount": "Отправить {{count}} SMS",
+    "sentDebt": "SMS отправлено {{count}} должникам!", "customSend": "Отправить своё SMS", "phoneNumber": "Номер телефона",
+    "message": "Текст сообщения", "messagePreview": "Текст сообщения появится здесь...", "charCount": "Символов: {{count}} / 160",
+    "sentOne": "SMS отправлено!", "sendToAll": "Отправить SMS всем активным ученикам", "activeCount": "Активные ученики",
+    "sendAllBtn": "Отправить SMS всем {{count}}", "sentAll": "SMS отправлено {{count}} ученикам!",
+    "noHistory": "История SMS пуста", "time": "Время", "typeDebt": "Долг", "typeCustom": "Своё", "typeAll": "Массовое"
+  },
+  "reports": {
+    "totalStudents": "Всего учеников", "active": "Активные", "waiting": "В ожидании", "left": "Ушедшие",
+    "groups": "Группы", "activeGroup": "Активная группа", "teachers": "Учителя", "attendanceRate": "Посещаемость %",
+    "monthlyIncome": "Доход за месяц", "monthlyExpense": "Расход за месяц", "netProfit": "Чистая прибыль",
+    "debtors": "Должники", "coursePerf": "Эффективность курсов", "teacherPerf": "Результаты учителей"
+  },
+  "settings": {
+    "centerInfo": "Информация об учебном центре", "centerName": "Название центра", "phone": "Телефон", "address": "Адрес",
+    "saved": "Информация сохранена", "users": "Пользователи", "systemSettings": "Системные настройки",
+    "minGroupOpen": "Минимум учеников для открытия группы", "monthlyLessons": "Уроков в месяц (основа оплаты)",
+    "smsNotifications": "SMS-уведомления", "autoSms": "Авто SMS (должник после 7 дней)", "enabled": "Включено"
+  },
+  "modals": {
+    "pay": { "title": "Принять платёж", "monthlyFee": "Плата за месяц:", "paidSoFar": "Оплачено:", "debt": "Долг:",
+      "amount": "Сумма платежа (сум)", "note": "Примечание", "submit": "Принять + Чек", "success": "Платёж принят: {{amount}} сум" },
+    "receipt": { "title": "Чек об оплате", "number": "Чек №", "date": "Дата", "time": "Время", "student": "Ученик",
+      "phone": "Телефон", "course": "Курс", "group": "Группа", "type": "Тип", "monthlyFee": "Плата за месяц",
+      "paid": "Оплачено", "note": "Примечание", "confirmed": "Платёж принят", "close": "Закрыть" },
+    "leave": { "title": "Отчислить из группы", "reason": "Причина ухода", "reasonPlaceholder": "Опишите причину...",
+      "lessonsAttended": "Сколько уроков посетил (для расчёта)", "monthlyIs": "Плата за 12 уроков = {{price}} сум → 1 урок = {{lesson}} сум",
+      "paid": "Оплачено", "used": "Использовано", "refund": "Возврат", "confirm": "Подтвердить", "success": "{{name}} отчислен(а). Возврат: {{amount}} сум" },
+    "fine": { "title": "Добавить штраф", "reason": "Причина штрафа", "customReason": "Или напишите свою...", "amount": "Сумма штрафа (сум)",
+      "submit": "Добавить", "success": "{{name}} назначен штраф {{amount}} сум",
+      "reasons": { "late": "Опоздание на урок", "missed": "Пропуск урока", "poorQuality": "Некачественный урок",
+        "complaint": "Жалоба ученика", "noDocs": "Не сдал документы", "discipline": "Нарушение дисциплины", "other": "Другая причина" } },
+    "confirmGroup": { "title": "Подтвердить группу", "startDate": "Дата начала занятий", "startHint": "Начисление оплаты начнётся с этой даты",
+      "info1": "Все {{count}} ожидающих учеников будут активированы", "info2": "Дата оплаты начинается с {{date}}",
+      "info3": "Всем ученикам будет отправлено SMS", "confirm": "Подтвердить", "success": "Группа {{name}} подтверждена! SMS отправлено всем {{count}} ученикам!" },
+    "addStudent": { "title": "Добавить ученика", "submit": "Добавить", "success": "{{name}} добавлен(а)" },
+    "viewStudent": { "title": "Информация об ученике", "course": "Курс", "group": "Группа", "days": "Дни",
+      "joined": "Дата вступления", "payStart": "Начало оплаты", "monthlyFee": "Плата за месяц", "paid": "Оплачено", "debt": "Долг",
+      "totalLessons": "Всего уроков", "attended": "Посетил", "paymentHistory": "История платежей",
+      "leaveReason": "Причина ухода", "refund": "Возврат" }
+  },
+  "teacherPortal": {
+    "hello": "Здравствуйте, {{name}} 👋", "subjectTeacher": "учитель предмета «{{course}}»", "myGroups": "Мои группы",
+    "myStudents": "Мои ученики", "monthlyIncome": "Доход за месяц", "fines": "Штрафы", "student": "ученик",
+    "lessonDays": "Дни занятий", "fineList": "Штрафы", "noGroupSelected": "Выберите группу",
+    "attendanceRate": "Посетил: {{came}}/{{total}} уроков"
+  },
+  "modules": {
+    "pipeline": { "title": "Воронка продаж", "totalLeads": "Всего {{count}} лидов · {{converted}} стали учениками",
+      "newLead": "Новый лид", "source": "Источник", "referral": "Реферальная программа — «Приведи друга»",
+      "referrer": "Ученик-рекомендатель", "giveBonus": "🎁 Начислить бонус", "bonusGiven": "Рекомендателю начислен бонус 50 000 сум!",
+      "selectStudent": "Выберите ученика", "leadAdded": "Новый лид добавлен", "ruleText": "За каждую успешную рекомендацию рекомендателю начисляется 50 000 сум или скидка 15% на следующий месяц." },
+    "aiAnalytics": { "title": "AI-аналитика" },
+    "lms": { "title": "LMS / Учёба" },
+    "inventory": { "title": "Склад и инвентарь" },
+    "auditLog": { "title": "Журнал действий" },
+    "parentPanel": { "title": "Панель родителей" },
+    "globalSearch": { "title": "Глобальный поиск", "placeholder": "Поиск учеников, учителей, групп..." },
+    "taskManager": { "title": "Задачи", "addTask": "Добавить задачу", "placeholder": "Новая задача..." },
+    "accounting": { "title": "Бухгалтерия" },
+    "roomMgmt": { "title": "Кабинеты" },
+    "studentCab": { "title": "Кабинет ученика" },
+    "aiChatbot": { "title": "AI-чат-бот", "placeholder": "Задайте вопрос..." },
+    "nps": { "title": "NPS и качество" },
+    "antiFraud": { "title": "Anti-Fraud AI" },
+    "smartMap": { "title": "Smart Mapping" },
+    "psychLtv": { "title": "Психология / LTV" },
+    "marketing": { "title": "Маркетинг-автоматизация" },
+    "pricing": { "title": "Динамическое ценообразование", "earlyBird": "Скидки Early Bird", "loyalty": "Loyalty Coins",
+      "spend": "Потратить", "notEnough": "Недостаточно коинов", "spent": "коинов потрачено — скидка применена к следующему месяцу!",
+      "earned": "коинов начислено" },
+    "hr360": { "title": "HR и 360°", "contracts": "Э-договоры", "salarySlip": "Расчётный лист", "kpi": "Оценка 360°",
+      "signed": "Подписан", "unsigned": "Не подписан", "daysLeft": "Осталось {{count}} дней!", "reminder": "Напомнить",
+      "reminderSent": "Напоминание отправлено {{name}}", "printSlip": "Печать", "printed": "Расчётный лист распечатан" },
+    "bigdata": { "title": "Big Data" }
+  }
+}
